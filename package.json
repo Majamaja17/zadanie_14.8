@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Majamaja17/zadanie_14.8/issues"
   },
-  "homepage": "https://github.com/Majamaja17/zadanie_14.8#readme"
+  "homepage": "https://github.com/Majamaja17/zadanie_14.8#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
